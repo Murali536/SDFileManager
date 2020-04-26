@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/shape_id" >
+        <shape
+            android:dither="true"
+            android:shape="oval" >
+            <corners android:radius="4dp" />
+
+            <solid android:color="@color/actionbar_bg_0" /> 
+        </shape>
+    </item>
+</layer-list>

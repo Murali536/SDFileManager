@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dip" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/explorer_toolbar_paste"
+            android:layout_width="@dimen/toolbar_item_width"
+            android:layout_height="match_parent"
+            android:background="@drawable/tool_bar_bg"
+            android:drawableTop="@drawable/paste"
+            android:gravity="center_horizontal"
+            android:text="@string/paste"
+            android:paddingTop="@dimen/toolbar_item_padding_top"
+            android:textColor="@color/tool_bar_item_text_color"
+            android:textStyle="normal"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/explorer_toolbar_home"
+            android:layout_width="@dimen/toolbar_item_width"
+            android:layout_height="match_parent"
+            android:background="@drawable/tool_bar_bg"
+            android:drawableTop="@drawable/home"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/toolbar_item_padding_top"
+            android:text="@string/home"
+            android:textColor="@color/tool_bar_item_text_color"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/explorer_toolbar_multi"
+            android:layout_width="@dimen/toolbar_item_width"
+            android:layout_height="match_parent"
+            android:background="@drawable/tool_bar_bg"
+            android:drawableTop="@drawable/multi"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/toolbar_item_padding_top"
+            android:text="@string/multi_select"
+            android:textColor="@color/tool_bar_item_text_color"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/explorer_toolbar_new"
+            android:layout_width="@dimen/toolbar_item_width"
+            android:layout_height="match_parent"
+            android:background="@drawable/tool_bar_bg"
+            android:drawableTop="@drawable/add_new"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/toolbar_item_padding_top"
+            android:text="@string/add_new"
+            android:textColor="@color/tool_bar_item_text_color"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/explorer_toolbar_search"
+            android:layout_width="@dimen/toolbar_item_width"
+            android:layout_height="match_parent"
+            android:background="@drawable/tool_bar_bg"
+            android:drawableTop="@drawable/search"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/toolbar_item_padding_top"
+            android:text="@string/search"
+            android:textColor="@color/tool_bar_item_text_color"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/explorer_toolbar_back"
+            android:layout_width="@dimen/toolbar_item_width"
+            android:layout_height="match_parent"
+            android:background="@drawable/tool_bar_bg"
+            android:drawableTop="@drawable/back"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/toolbar_item_padding_top"
+            android:text="@string/back"
+            android:textColor="@color/tool_bar_item_text_color"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/explorer_toolbar_favourites"
+            android:layout_width="@dimen/toolbar_item_width"
+            android:layout_height="match_parent"
+            android:background="@drawable/tool_bar_bg"
+            android:drawableTop="@drawable/favourites"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/toolbar_item_padding_top"
+            android:text="@string/favourite"
+            android:textColor="@color/tool_bar_item_text_color"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/explorer_toolbar_refresh"
+            android:layout_width="@dimen/toolbar_item_width"
+            android:layout_height="match_parent"
+            android:background="@drawable/tool_bar_bg"
+            android:drawableTop="@drawable/refresh"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/toolbar_item_padding_top"
+            android:text="@string/refresh"
+            android:textColor="@color/tool_bar_item_text_color"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/explorer_toolbar_exit"
+            android:layout_width="@dimen/toolbar_item_width"
+            android:layout_height="match_parent"
+            android:background="@drawable/tool_bar_bg"
+            android:drawableTop="@drawable/exit"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/toolbar_item_padding_top"
+            android:text="@string/exit"
+            android:textColor="@color/tool_bar_item_text_color"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+</HorizontalScrollView>

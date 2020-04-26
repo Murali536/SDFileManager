@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:background="@drawable/list_item_bg" >
+
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="42dip"
+        android:layout_height="42dip"
+        android:layout_centerVertical="true"
+        android:maxHeight="48dip"
+        android:maxWidth="48dip"
+        android:layout_marginLeft="16dp"
+        android:scaleType="centerInside" />
+
+    <CheckBox
+        android:id="@+id/item_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:paddingRight="5dip" />
+
+    <RelativeLayout
+        android:id="@+id/content_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_toLeftOf="@id/item_checkbox"
+        android:layout_toRightOf="@id/item_icon"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp" >
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:ellipsize="marquee"
+            android:focusableInTouchMode="true"
+            android:gravity="bottom"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxLines="1"
+            android:orientation="vertical"
+            android:scrollHorizontally="true"
+            android:textColor="@color/file_folder_name_text_color"
+            android:textSize="@dimen/item_name_size_small"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/item_modified_Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_name"
+            android:gravity="left"
+            android:paddingRight="25dip"
+            android:textColor="@color/file_folder_modified_date_color"
+            android:textSize="@dimen/list_item_modifieddate" />
+
+        <TextView
+            android:id="@+id/item_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_name"
+            android:layout_toRightOf="@id/item_modified_Date"
+            android:gravity="left"
+            android:textColor="@color/file_folder_modified_date_color"
+            android:textSize="@dimen/list_item_modifieddate" />
+
+        <TextView
+            android:id="@+id/search_path"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_name"
+            android:textColor="@color/file_folder_modified_date_color"
+            android:textSize="@dimen/list_item_modifieddate"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:visibility="gone" />
+        
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/list_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/content_parent"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@id/item_icon"
+        android:background="@color/list_divider_bg" />
+
+</RelativeLayout>

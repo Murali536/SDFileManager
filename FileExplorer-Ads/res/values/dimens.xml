@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <dimen name="list_item_height">70dip</dimen>
+    <dimen name="grid_item_height">58dip</dimen>
+    <dimen name="sdcard_item_height">40dip</dimen>
+    
+    <dimen name="side_pane_item_height">60dip</dimen>
+    <dimen name="side_pane_item_height2">48dip</dimen>
+    <dimen name="side_pane_item_header_height">32dip</dimen>
+    <dimen name="side_pane_item_paddingleft">12dip</dimen>
+    <dimen name="side_pane_item_paddingleft2">24dip</dimen>
+    <dimen name="side_pane_item_paddingleft3">30dip</dimen>
+    
+    <dimen name="ldrawer_drawableSize">50dp</dimen>
+    <dimen name="ldrawer_barSize">18dp</dimen>
+    <dimen name="ldrawer_topBottomBarArrowSize">11dp</dimen>
+    <dimen name="ldrawer_thickness">2dp</dimen>
+    <dimen name="ldrawer_gapBetweenBars">3dp</dimen>
+    <dimen name="ldrawer_middleBarArrowSize">16dp</dimen>
+    
+    <dimen name="toolbar_item_height">56dip</dimen>
+    <dimen name="toolbar_item_width">56dip</dimen>
+    <dimen name="toolbar_item_padding_top">7dip</dimen>
+    
+    <dimen name="list_item_modifieddate">14sp</dimen>
+    <!-- <dimen name="paste_icon_padding">15dp</dimen> -->
+    
+    <dimen name="theme_color_width">64dp</dimen>
+    <dimen name="theme_color_height">64dp</dimen>
+</resources>

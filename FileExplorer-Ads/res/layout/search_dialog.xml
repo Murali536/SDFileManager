@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <TextView
+        android:id="@+id/dialog_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="10dip"
+        android:text="@string/search_text" />
+
+    <EditText
+        android:id="@+id/search_dialog_edittext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_message"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:hint="@string/search_hint"
+        android:maxLines="1" />
+
+    <TextView
+        android:id="@+id/dialog_file_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_dialog_edittext"
+        android:layout_marginBottom="4dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="3dip"
+        android:text="@string/searching_file_type" />
+
+    <Spinner
+        android:id="@+id/search_dialog_options"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_file_type"
+        android:layout_marginBottom="3dip" />
+
+</RelativeLayout>

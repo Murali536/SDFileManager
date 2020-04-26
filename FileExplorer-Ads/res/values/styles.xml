@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="apptheme" parent="Theme.AppCompat.Light">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/actionbar_bg_0</item>
+        <item name="colorPrimaryDark">@color/actionbar_bg_dark_0</item>
+        <item name="colorAccent">@color/actionbar_bg_0</item>
+        <item name="drawerArrowStyle">@style/drawerArrowStyle</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:actionBarSize">70dp</item>
+        
+        
+    </style>
+
+    <style name="app_text_style">
+        <item name="android:textColor">@color/file_folder_name_text_color</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/item_name_size_medium</item>
+    </style>
+
+    <style name="MyTheme.ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+    </style>
+
+    <style name="MyTheme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/tool_bar_item_text_color</item>
+    </style>
+
+    <style name="drawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">false</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+</resources>

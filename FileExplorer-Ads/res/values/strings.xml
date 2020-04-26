@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, FileExpActivity!</string>
+    <string name="app_name">SD File Manager/Explorer</string>
+     <string name="launcher_name">SD File Manager</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="properties">Properties</string>
+    <string name="copy">Copy</string>
+    <string name="cut">Cut</string>
+    <string name="rename">Rename</string>
+    <string name="delete">Delete</string>
+    <string name="open">Open</string>
+    <string name="send">Send</string>
+    <string name="create_new">Create New</string>
+    <string name="up">Up</string>
+    <string name="home">Home</string>
+    <string name="multi_select">Multi </string>
+    <string name="sort">Sort</string>
+    <string name="search">Search</string>
+    <string name="favourite">Starred</string>
+    <string name="refresh">Refresh</string>
+    <string name="exit">Exit</string>
+    <string name="zip">Create Zip</string>
+    <string name="unzip">UnZip File</string>
+    <string name="mark_favourite">Mark as Starred</string>
+    <string name="add_new">New</string>
+    <string name="create_new_folder">Enter folder name</string>
+    <string name="create_new_file">Enter file name without extension(.txt)</string>
+    <string name="new_name">Enter Name</string>
+    <string name="newfolder">New Folder</string>
+    <string name="newfile">New File</string>
+    <string name="create">Create</string>
+    <string name="empty_folder">Empty Folder</string>
+    <string name="back">Back</string>
+    <string name="selectall">Select All</string>
+ 	<string name="unselectall">UnSelect All</string>
+ 	<string name="options">Options</string>
+ 	<string name="fav_paths">Favourite Paths</string>
+ 	<string name="loading_msg">Loading...</string>
+ 	<string name="info">Info</string>
+ 	<string name="about">About</string>
+ 	<string name="tools">Tools</string>
+ 	<string name="help_tutorial">Help Tutorial</string>
+ 	<string name="recommend">Send Feedback</string>
+	<string name="sd_card_usage">SD Card Usage</string>
+	<string name="app_manager">Application Manager</string>
+	<string name="launch">Launch</string>
+	<string name="uninstall">Uninstall</string>
+	<string name="details">Details</string>
+	<string name="next">Next</string>
+	<string name="prev">Previous</string>
+	<string name="close">Close</string>
+	<string name="help">Help</string>
+	<string name="pick_file">Select a file</string>
+	
+	<string name="backup">Backup</string>
+	<string name="backup_pd_msg">Backup in progress...</string>
+	<string name="backup_failed">Unable to backup APK. Paid apps cannot be backuped</string>
+	<string name="backup_done">Application Backuped at</string>
+	
+	<string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+	
+	<!--  prefs related strings -->
+ 	<string name="pref_show_hidden">Show Hidden Files</string>
+	<string name="hide_summary">Display files/folders whose name starts with \".\"</string>
+	<string name="pref_show_modified_date">Show Modified Date</string>
+	<string name="date_modified_summary">Display modified date for files and folders</string>
+	<string name="pref_thumbnails">Show Thumbnails</string>
+	<string name="thumbs_summary">Display thumbnails for files like images, videos etc..</string>
+	
+ 	<string name="press_back_to_exit">Press back again to exit</string>
+ 	<string name="favourite_created"> added to favourites list</string>
+ 	<string name="no_favourite_path">No favourite paths. Long press a file/folder and select &quot;Mark as Favourite&quot; </string>
+ 	<string name="delete_favourite_path">Long press any file/folder to delete as favourite path</string>
+ 	<string name="favourite_path_deleted"> removed from favourites list</string>
+ 	<string name="paste">Paste</string>
+ 	<string name="enter_zip_name">Please enter the Archive name(without .zip extension)</string>
+ 	<string name="confirm_delete">Are you sure you want to delete these file(s) ?</string>
+ 	<string name="file_copy_selected">Navigate to destination folder and Select paste option in the tool bar to copy the file/folder</string>
+ 	<string name="preparing">Preparing files...</string>
+ 	<string name="delete_title">Deleting ...</string>
+ 	<string name="version">Version : 0.8 </string>
+ 	<string name="author">Developer : Manthena Murali \n manthena.android@gmail.com</string>
+ 	<string name="settings">Settings</string>
+ 	<string name="set_as_home">Set as Home Folder</string>
+ 	<string name="rename_failed">Rename failed. File/Folder with the same name already exists</string>
+ 	<string name="path_not_found">File/Folder not found. Might been deleted or moved to another folder</string>
+ 	
+ 	<string name="search_title">Search Results</string>
+ 	<string name="searching_dialog_title">Searching</string>
+ 	<string name="searching_dialog_body">Please wait... we are search your folders</string>
+ 	<string name="searching_file_type">File type : </string>
+ 	<string name="search_text">Search text : </string>
+ 	<string name="no_search_results">No search results found</string>
+ 	
+ 	<string name="task_manager">Task Manager</string>
+ 	
+ 	<string name="sd_card_analysis">SD Card Usage</string>
+ 	<string name="total_space">Total Space</string>
+ 	<string name="used_space">Used Space</string>
+ 	<string name="free_space">Free Space</string>
+ 	<string name="colan">:</string>
+ 	<string name="search_hint">Enter text to search</string>
+ 	
+ 	
+ 	<string name="open_in_folder">Open in Folder</string>
+ 	
+ 	<string name="audio">Audio Files</string>
+ 	<string name="video">Video Files</string>
+ 	<string name="images">Pictures</string>
+ 	<string name="other_files">Other Files</string>
+ 	
+ 	<string name="application_manager_welcome_msg">Long press a item to launch, backup or uninstall</string>
+ 	<string name="unzip_dialog">Do you want to unzip this file?</string>
+ 	
+ 	<string name="remove_home_title">Reset home path</string>
+ 	<string name="remove_home_summary">Reset the home path to default path</string>
+ 	
+ 	<string name="select_theme_title">Themes</string>
+ 	<string name="select_theme_summary">Select a theme</string>
+ 	
+ 	<string name="welcome_msg">Welcome to SD File Manager/Explorer</string>
+ 	<string name="change_log"><b>Change Log : </b>
+ 	    \n\n <b>v0.8(current)</b> \n\t 1. UI changes \n\t 2. Share multiple files \n\t 3. Apply themes  \n\t 4. Bug fixes 
+ 	    \n\n <b>v0.7</b> \n\t 1. Fixed crash for few users \n\t 2. Minor ui changes \n\t 3. New navigation bar
+ 	    \n\n <b>v0.6</b> \n\t 1. Application manager feature \n\t 2. File picker. Allows other apps like email to pick files as attachments \n\t 3. Minor UI tweaks 
+ 	    \n\n <b>v0.5</b> \n\t 1. New white theme \n\t 2. New Settings launch panel \n\t 3. Remembers the last selected folder \n\t 4. Feedback option 
+ 	    \n\n <b>v0.4</b> \n\t 1. Performance improvements \n\t 2. Fixed few bugs and crashes \n\t 3. Select a zip file to directly unzip it \n</string>
+ 	
+</resources>

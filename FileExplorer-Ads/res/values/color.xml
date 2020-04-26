@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="tool_bar_item_text_color">#ffffff</color>
+    
+    <color name="file_folder_name_text_color">#000000</color>
+    <color name="file_folder_modified_date_color">#74000000</color>
+    <color name="app_manager_item_name_text_color">#000000</color>
+    
+    <color name="color_audio">#348df9</color>
+    <color name="color_video">#874bd9</color>
+    <color name="color_images">#0bcfde</color>
+    <color name="color_other">#90da00</color>
+    <color name="color_free">#cfcfcf</color>
+
+    <color name="color_multi_select">#1a237e</color>
+    
+    <color name="side_panel_bg">#ffffff</color>
+    <color name="side_panel_header_text_color">#58585b</color>
+    <color name="side_panel_item_text_color">#000000</color>
+    
+    <color name="side_panel_title_below_divider">#bebebe</color>
+    
+    <color name="ldrawer_color_light">@android:color/white</color>
+    <!-- <color name="action_bar_color">#303f9f</color>
+    <color name="item_bg_color">#3f51b5</color>
+    <color name="action_bar_color_dark">#1a237e</color> -->
+    
+    <color name="list_divider_bg">#15000000</color>
+    <color name="pressed_bg">#EEEEEE</color>
+    <color name="toolbar_pressed_bg">#7986cb</color>
+    
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start" xmlns:app1="http://schemas.android.com/apk/res/com.mkr.file_explorer">
+
+    <RelativeLayout
+        android:id="@+id/explorer_ui_parent_relative"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolBar"
+            android:layout_width="match_parent"
+            android:layout_height="70dip"
+            app1:contentInsetStart="15dp"
+            android:layout_alignParentTop="true"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" >
+
+            <ViewFlipper
+                android:id="@+id/viewflipper_top"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent" >
+            </ViewFlipper>
+        </android.support.v7.widget.Toolbar>
+
+        <HorizontalScrollView
+            android:id="@+id/path_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:layout_below="@id/toolBar"
+            android:gravity="center_vertical"
+            android:paddingBottom="3dp"
+            android:paddingLeft="38dp" >
+
+            <LinearLayout
+                android:id="@+id/path_scroll_linearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+        </HorizontalScrollView>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#ffffff"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-2415080342777212/9944706082" />
+
+        <LinearLayout
+            android:id="@+id/explorer_display_items"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/adView"
+            android:layout_below="@id/path_scroll"
+            android:background="#ffffff" >
+        </LinearLayout>
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/side_panel_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        layout="@layout/side_pane_layout" />
+
+</android.support.v4.widget.DrawerLayout>

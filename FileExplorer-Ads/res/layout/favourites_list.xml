@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:layout_marginBottom="4dp" >
+
+    <ImageView
+        android:id="@+id/fav_icon"
+        android:layout_width="42dip"
+        android:layout_height="42dip"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/circle_bg"
+        android:maxHeight="48dip"
+        android:maxWidth="48dip"
+        android:scaleType="centerInside" />
+
+    <RelativeLayout
+        android:id="@+id/content_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_toLeftOf="@id/item_checkbox"
+        android:layout_toRightOf="@id/fav_icon"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp" >
+
+        <TextView
+            android:id="@+id/fav_filename"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:focusableInTouchMode="true"
+            android:gravity="center_vertical|bottom"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxLines="2"
+            android:textColor="@color/file_folder_name_text_color"
+            android:textSize="@dimen/item_name_size_small"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/fav_filePath"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fav_filename"
+            android:maxLines="1"
+            android:textColor="@color/file_folder_modified_date_color"
+            android:textSize="@dimen/list_item_modifieddate" />
+    </RelativeLayout>
+
+</RelativeLayout>

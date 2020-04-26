@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/side_panel_bg" >
+
+    <LinearLayout
+        android:id="@+id/side_pane_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/side_pane_header"
+            android:layout_width="match_parent"
+            android:layout_height="70dip"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:paddingLeft="@dimen/side_pane_item_paddingleft"
+            android:scrollHorizontally="true"
+            android:text="SD File Manager"
+            android:textColor="@color/tool_bar_item_text_color"
+            android:textSize="@dimen/item_name_size_medium"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/side_pane_item_header_height"
+                android:gravity="left|bottom"
+                android:paddingLeft="@dimen/side_pane_item_paddingleft"
+                android:text="@string/tools"
+                android:textColor="@color/side_panel_header_text_color"
+                android:textSize="@dimen/side_pane_headers" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/list_seperator" />
+
+            <TextView
+                android:id="@+id/side_pane_options_application_manager"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/side_pane_item_height"
+                android:background="@drawable/item_click_bar_bg"
+                android:drawableLeft="@drawable/apps_black"
+                android:drawablePadding="10dp"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/side_pane_item_paddingleft2"
+                android:text="@string/app_manager"
+                android:textColor="@color/side_panel_item_text_color"
+                android:textSize="@dimen/side_pane_items" />
+
+            <TextView
+                android:id="@+id/side_pane_options_sdcard_info"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/side_pane_item_height"
+                android:background="@drawable/item_click_bar_bg"
+                android:drawableLeft="@drawable/sd_storage_black"
+                android:drawablePadding="10dp"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/side_pane_item_paddingleft2"
+                android:text="@string/sd_card_usage"
+                android:textColor="@color/side_panel_item_text_color"
+                android:textSize="@dimen/side_pane_items" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/side_pane_item_header_height"
+                android:gravity="left|bottom"
+                android:paddingLeft="@dimen/side_pane_item_paddingleft"
+                android:text="@string/options"
+                android:textColor="@color/side_panel_header_text_color"
+                android:textSize="@dimen/side_pane_headers" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/list_seperator" />
+
+            <TextView
+                android:id="@+id/side_pane_option_settings"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/side_pane_item_height2"
+                android:background="@drawable/item_click_bar_bg"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/side_pane_item_paddingleft3"
+                android:text="@string/settings"
+                android:textColor="@color/side_panel_item_text_color"
+                android:textSize="@dimen/side_pane_items_1" />
+
+            <TextView
+                android:id="@+id/side_pane_option_recommend"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/side_pane_item_height2"
+                android:background="@drawable/item_click_bar_bg"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/side_pane_item_paddingleft3"
+                android:text="@string/recommend"
+                android:textColor="@color/side_panel_item_text_color"
+                android:textSize="@dimen/side_pane_items_1" />
+
+            <TextView
+                android:id="@+id/side_pane_option_rateme"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/side_pane_item_height2"
+                android:background="@drawable/item_click_bar_bg"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/side_pane_item_paddingleft3"
+                android:text="Rate me!!"
+                android:textColor="@color/side_panel_item_text_color"
+                android:textSize="@dimen/side_pane_items_1" />
+            
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

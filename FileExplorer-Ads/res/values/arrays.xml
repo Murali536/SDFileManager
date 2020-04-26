@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="menu_create_new_items">
+        <item>File(.txt)</item>
+        <item>Folder</item>
+    </string-array>
+    <string-array name="view_type_settings_entries">
+        <item>List</item>
+        <item>Grid</item>
+    </string-array>
+    <string-array name="view_type_settings_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="text_size_settings_entries">
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="text_size_settings_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="sort_settings_entries">
+        <item>Alphabetic</item>
+        <!-- <item>Type</item> -->
+        <item>Date modified</item>
+    </string-array>
+    <string-array name="sort_settings_values">
+        <item>0</item>
+        <!-- <item>1</item> -->
+        <item>2</item>
+    </string-array>
+    <string-array name="search_list_options">
+        <item>@string/open</item>
+        <item>@string/open_in_folder</item>
+        <item>@string/send</item>
+        <item>@string/delete</item>
+        <item>@string/properties</item>
+    </string-array>
+    <string-array name="search_options">
+        <item>All Types</item>
+        <item>Images</item>
+        <item>Audio</item>
+        <item>Video</item>
+    </string-array>
+	<string-array name="side_pane_options">
+        <item>@string/sd_card_analysis</item>
+        <item>@string/settings</item>
+    </string-array>
+</resources>

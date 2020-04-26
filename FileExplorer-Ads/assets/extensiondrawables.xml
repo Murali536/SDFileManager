@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Extensions>
+
+	<type extension="txt" drawable="ic_doc_text_am" />
+	<type extension="css" drawable="ic_doc_text_am" />
+	<type extension="ans" drawable="ic_doc_text_am" />
+	<type extension="rtf" drawable="ic_doc_text_am" />
+	<type extension="odt" drawable="ic_doc_text_am" />
+	<type extension="mcw" drawable="ic_doc_text_am" />
+	
+	<type extension="xml"   drawable="ic_doc_codes" />
+	<type extension="csv"   drawable="ic_doc_codes" />
+	<type extension="swf"   drawable="ic_doc_codes" />
+	<type extension="php"   drawable="ic_doc_codes" />
+	<type extension="ini"   drawable="ic_doc_codes" />
+	<type extension="java"  drawable="ic_doc_codes" />
+	<type extension="html"  drawable="ic_doc_codes" />
+	<type extension="xhtml" drawable="ic_doc_codes" /> 
+	
+	<type extension="jar" drawable="ic_doc_compressed" />
+	<type extension="zip" drawable="ic_doc_compressed" />
+	<type extension="rar" drawable="ic_doc_compressed" />
+	<type extension="gz"  drawable="ic_doc_compressed" />
+	
+	<type extension="doc"  drawable="ic_doc_word"  />
+	<type extension="docx" drawable="ic_doc_word" />
+	
+	<type extension="ppt"  drawable="ic_doc_powerpoint" />
+	<type extension="pptx" drawable="ic_doc_powerpoint" />
+	
+	<type extension="xls"  drawable="ic_doc_excel" />
+	<type extension="xlsx" drawable="ic_doc_excel" />
+	
+	<type extension="pdf"  drawable="ic_doc_pdf" />
+	<type extension="psd"  drawable="ic_doc_pdf" />
+	
+	<type extension="apk"  drawable="ic_doc_apk" />
+
+	<type extension="jpeg" drawable="ic_doc_image" />
+	<type extension="gif"  drawable="ic_doc_image" />
+	<type extension="bmp"  drawable="ic_doc_image" />
+	<type extension="png"  drawable="ic_doc_image" />
+	<type extension="svg"  drawable="ic_doc_image" />
+	<type extension="raw"  drawable="ic_doc_image" />
+	<type extension="jpg"  drawable="ic_doc_image" />
+	
+	<type extension="mp3"  drawable="ic_doc_audio_am" />
+	<type extension="m4a"  drawable="ic_doc_audio_am" />
+	<type extension="wav"  drawable="ic_doc_audio_am" />
+	<type extension="amr"  drawable="ic_doc_audio_am" />
+	<type extension="wma"  drawable="ic_doc_audio_am" />
+	<type extension="ogg"  drawable="ic_doc_audio_am" />
+	<type extension="aac"  drawable="ic_doc_audio_am" />
+	<type extension="midi" drawable="ic_doc_audio_am" />
+	<type extension="mid"  drawable="ic_doc_audio_am" />
+	
+	<type extension="mp4"  drawable="ic_doc_video_am" />
+	<type extension="m4v"  drawable="ic_doc_video_am" />
+	<type extension="3gp"  drawable="ic_doc_video_am" />
+	<type extension="3gpp" drawable="ic_doc_video_am" />
+	<type extension="wmv"  drawable="ic_doc_video_am" />
+	<type extension="asf"  drawable="ic_doc_video_am" />
+	<type extension="mov"  drawable="ic_doc_video_am" />
+	<type extension="mpeg" drawable="ic_doc_video_am" />
+	<type extension="avi"  drawable="ic_doc_video_am" />
+	<type extension="flv"  drawable="ic_doc_video_am" /> 
+	
+</Extensions>
